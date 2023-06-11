@@ -67,6 +67,7 @@ input[type="button"]:active {
         max-width: 400px;
         margin: 0 auto;
         padding: 20px;
+        box-sizing: border-box;
     }
 
     #result {
@@ -84,5 +85,12 @@ input[type="button"]:active {
         width: 90%;
         margin: 5px;
         font-size: 18px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        /* Adjust the width as per your preference */
+        box-sizing: border-box;
+        /* Include padding within the width */
     }
 }
