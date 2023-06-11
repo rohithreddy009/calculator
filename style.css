@@ -7,7 +7,7 @@ body {
     width: 300px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 3px solid #000000;
     border-radius: 5px;
     background-color: #faedcd;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -27,8 +27,8 @@ h1 {
     font-weight: bold;
     width: 90%;
     padding: 10px;
-    border: 1px solid #ddd;
-    background-color: #f8f9fa;
+    border: 3px solid #000000;
+    background-color: #ffffff;
     color: #333;
 }
 
@@ -58,4 +58,31 @@ input[type="button"]:hover {
 
 input[type="button"]:active {
     background-color: #222;
+}
+
+/* Add responsiveness for smaller screens */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    #result {
+        width: 100%;
+        padding: 8px;
+        font-size: 20px;
+    }
+
+    table {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    input[type="button"] {
+        width: 30%;
+        margin: 5px;
+        font-size: 16px;
+    }
 }
