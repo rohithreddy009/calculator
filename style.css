@@ -81,8 +81,8 @@ input[type="button"]:active {
     }
 
     input[type="button"] {
-        width: 30%;
+        width: 90%;
         margin: 5px;
-        font-size: 16px;
+        font-size: 18px;
     }
 }
