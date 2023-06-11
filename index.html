@@ -4,13 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link type="image/png" sizes="32x32" rel="icon" href="favicon.png">
-  <title>Simple Calculator</title>
+    <title>Simple Calculator</title>
 </head>
 <body>
   <div class="container">
     <h1> CALCULATOR</h1>
     <input type="text" id="result" disabled>
     <table>
+
       <tr>
         <td><input type="button" value="1" onclick="appendNumber(1)"></td>
         <td><input type="button" value="2" onclick="appendNumber(2)"></td>
@@ -36,6 +37,10 @@
         <td><input type="button" value="/" onclick="appendOperator('/')"></td>
       </tr>
     </table>
+  </div>
+  <div class="history-container">
+    <h2>HISTORY</h2>
+    <strong><ul id="history-list"></ul></strong>
   </div>
   <script src="script.js"></script>
 </body>
